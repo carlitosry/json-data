@@ -1,0 +1,58 @@
+{
+    "listas": [
+        {
+            "id": "001",
+            "nombre": "Personales",
+            "descripcion": "passwords personales",
+            "porDefecto":false,
+            "listaPasswords": [
+                {
+                "id": "1001",
+                "nombrePassword": "Portal del empleado"
+                },
+                {
+                "id": "1002",
+                "nombrePassword": "Portal del empleado2"
+                }
+            ]
+        },
+        {
+            "id": "002",
+            "nombre": "Webs",
+            "descripcion": "webspersonales",
+            "porDefecto":true,
+            "listaPasswords": [
+                {
+                    "id": "2001",
+                    "nombrePassword": "web del empleado"
+                }
+            ]
+        },
+        {
+            "id": "003",
+            "nombre": "Banca",
+            "descripcion": "Bancas personales",
+            "porDefecto":false,
+            "listaPasswords": [
+                {
+                    "id": "3001",
+                    "nombrePassword": "Bancadel empleado"         
+                },
+                {
+                    "id": "3002",
+                    "nombrePassword": "Desarrollo web"         
+                }
+            ]
+        }
+    ],
+
+    "password": {
+        "codigoPassword": "1001",
+        "codigoLista": "001",
+        "nombrePassword": "Portal del empleado",
+        "password": "cajaFuerte",
+        "usuario": "rvillano",
+        "descripcion": "password portal empleado",
+        "enlace": "http://enlace.com"
+    }
+}
