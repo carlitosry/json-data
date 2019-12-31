@@ -1,5 +1,5 @@
 {
-    "listas": [
+    "lists": [
         {
             "id": "001",
             "nombre": "Personales",
@@ -45,6 +45,13 @@
             ]
         }
     ],
+
+    "new-list": {
+        "id": "004",
+        "nombre": "Google",
+        "porDefecto": false,
+        "listasPasswords": []
+    },
 
     "password": {
         "codigoPassword": "1001",
