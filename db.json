@@ -1,23 +1,23 @@
 {
     "lists": [
         {
-            "id": "001",
+            "id": 1,
             "nombre": "Personales",
             "descripcion": "passwords personales",
             "porDefecto":false,
             "listaPasswords": [
                 {
-                "id": "1001",
+                "id": 11,
                 "nombrePassword": "Portal del empleado"
                 },
                 {
-                "id": "1002",
+                "id": 12,
                 "nombrePassword": "Portal del empleado2"
                 }
             ]
         },
         {
-            "id": "002",
+            "id": 2,
             "nombre": "Webs",
             "descripcion": "webspersonales",
             "porDefecto":true,
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "id": "003",
+            "id": 3,
             "nombre": "Banca",
             "descripcion": "Bancas personales",
             "porDefecto":false,
@@ -47,15 +47,15 @@
     ],
 
     "new-list": {
-        "id": "004",
+        "id": 4,
         "nombre": "Google",
         "porDefecto": false,
         "listasPasswords": []
     },
 
     "password": {
-        "codigoPassword": "1001",
-        "codigoLista": "001",
+        "codigoPassword": 11,
+        "codigoLista": 1,
         "nombrePassword": "Portal del empleado",
         "password": "cajaFuerte",
         "usuario": "rvillano",
