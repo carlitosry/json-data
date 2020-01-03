@@ -23,7 +23,7 @@
             "porDefecto":true,
             "listaPasswords": [
                 {
-                    "id": "2001",
+                    "id": 21,
                     "nombrePassword": "web del empleado"
                 }
             ]
@@ -35,11 +35,11 @@
             "porDefecto":false,
             "listaPasswords": [
                 {
-                    "id": "3001",
+                    "id": 31,
                     "nombrePassword": "Bancadel empleado"         
                 },
                 {
-                    "id": "3002",
+                    "id": 32,
                     "nombrePassword": "Desarrollo web"         
                 }
             ]
