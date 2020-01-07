@@ -125,10 +125,53 @@
       "enlace": "Estoestaratos.com"
     }
   ],
+
   "new-list": {
+    "_comentario": "Cuando se actualice (metodo Put) una nueva lista se requeire que retorne estos valores",
+
     "id": 4,
     "nombre": "Google",
     "porDefecto": false,
     "listasPasswords": []
+  },
+
+  "update-list": {
+    "_comentario": "Cuando se actualice (metodo Put) una lista se requeire que retorne estos valores",
+    "id": 1,
+      "nombre": "Carlitosry",
+      "descripcion": "passwords personales",
+      "porDefecto": false,
+      "listaPasswords": [
+        {
+          "id": 1,
+          "nombrePassword": "Portal del empleado"
+        },
+        {
+          "id": 2,
+          "nombrePassword": "Portal del empleado2"
+        },
+        {
+          "id": 6,
+          "nombrePassword": "Testing Json"
+        }
+      ]
+  },
+
+  "new-password": { 
+    "_comentario": "Cuando se cree (metodo Post) un nuevo Password se requeire que retorne estos valores",
+    "id": 2,
+    "codigoLista": 1,
+    "nombrePassword": "Portal del empleado 22"
+  },
+
+  "update-password": {
+    "_comentario": "Cuando se actualice (metodo Put) un nuevo Password se requeire que retorne estos valores",
+    "id": 8,
+    "codigoLista": 1,
+    "nombrePassword": "Esto Esta raro",
+    "usuario": "Los palmitos",
+    "password": "holsmudnfi ",
+    "descripcion": "estoyprobando",
+    "enlace": "Estoestaratos.com"
   }
 }
