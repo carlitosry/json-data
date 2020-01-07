@@ -1,65 +1,101 @@
 {
-    "lists": [
+  "lists": [
+    {
+      "id": 1,
+      "nombre": "Personales",
+      "descripcion": "passwords personales",
+      "porDefecto": false,
+      "listaPasswords": [
         {
-            "id": 1,
-            "nombre": "Personales",
-            "descripcion": "passwords personales",
-            "porDefecto":false,
-            "listaPasswords": [
-                {
-                "id": 11,
-                "nombrePassword": "Portal del empleado"
-                },
-                {
-                "id": 12,
-                "nombrePassword": "Portal del empleado2"
-                }
-            ]
+          "id": 1,
+          "nombrePassword": "Portal del empleado"
         },
         {
-            "id": 2,
-            "nombre": "Webs",
-            "descripcion": "webspersonales",
-            "porDefecto":true,
-            "listaPasswords": [
-                {
-                    "id": 21,
-                    "nombrePassword": "web del empleado"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "nombre": "Banca",
-            "descripcion": "Bancas personales",
-            "porDefecto":false,
-            "listaPasswords": [
-                {
-                    "id": 31,
-                    "nombrePassword": "Bancadel empleado"         
-                },
-                {
-                    "id": 32,
-                    "nombrePassword": "Desarrollo web"         
-                }
-            ]
+          "id": 2,
+          "nombrePassword": "Portal del empleado2"
         }
-    ],
-
-    "new-list": {
-        "id": 4,
-        "nombre": "Google",
-        "porDefecto": false,
-        "listasPasswords": []
+      ]
     },
-
-    "password": {
-        "codigoPassword": 11,
-        "codigoLista": 1,
-        "nombrePassword": "Portal del empleado",
-        "password": "cajaFuerte",
-        "usuario": "rvillano",
-        "descripcion": "password portal empleado",
-        "enlace": "http://enlace.com"
+    {
+      "id": 2,
+      "nombre": "Webs",
+      "descripcion": "webspersonales",
+      "porDefecto": true,
+      "listaPasswords": [
+        {
+          "id": 3,
+          "nombrePassword": "web del empleado"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Banca",
+      "descripcion": "Bancas personales",
+      "porDefecto": false,
+      "listaPasswords": [
+        {
+          "id": 4,
+          "nombrePassword": "Bancadel empleado"
+        },
+        {
+          "id": 5,
+          "nombrePassword": "Desarrollo web"
+        }
+      ]
     }
+  ],
+  "passwords": [
+    {
+      "id": 1,
+      "codigoLista": 1,
+      "nombrePassword": "Portal del empleado",
+      "usuario": "emiulianss",
+      "password": "cajaFuerte11",
+      "descripcion": "password Bancadel",
+      "enlace": "http://enlace.com"
+    },
+    {
+      "id": 2,
+      "codigoLista": 1,
+      "nombrePassword": "Portal del empleado2",
+      "password": "cajaFuerte12",
+      "usuario": "emiuliano",
+      "descripcion": "password portal",
+      "enlace": "http://enlace.com"
+    },
+    {
+      "id": 3,
+      "codigoLista": 2,
+      "nombrePassword": "web del empleado",
+      "password": "cajaFuerte21",
+      "usuario": "emiuliano",
+      "descripcion": "password portal Bancadel",
+      "enlace": "http://enlace.com"
+    },
+    {
+      "id": 4,
+      "codigoLista": 3,
+      "nombrePassword": "Bancadel empleado",
+      "password": "cajaFuerte31",
+      "usuario": "emiuliano",
+      "descripcion": "password portal Bancadel",
+      "enlace": "http://enlace.com"
+    },
+    {
+      "id": 5,
+      "codigoLista": 3,
+      "nombrePassword": "Desarrollo web",
+      "password": "cajaFuerte32",
+      "usuario": "rvillano",
+      "descripcion": "password portal empleado",
+      "enlace": "http://enlace.com"
+    }
+  ],
+  "new-list": {
+    "id": 4,
+    "nombre": "Google",
+    "porDefecto": false,
+    "listasPasswords": []
+  }
 }
