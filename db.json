@@ -2,7 +2,7 @@
   "lists": [
     {
       "id": 1,
-      "nombre": "Carlitosry",
+      "nombre": "Carlitosr223",
       "descripcion": "passwords personales",
       "porDefecto": false,
       "listaPasswords": [
@@ -22,7 +22,7 @@
     },
     {
       "id": 2,
-      "nombre": "Webs",
+      "nombre": "Webs Semantica",
       "descripcion": "webspersonales",
       "porDefecto": false,
       "ordenado": 2,
@@ -55,16 +55,16 @@
     {
       "id": 1,
       "codigoLista": 1,
-      "nombrePassword": "Portal del empleado 22",
+      "nombrePassword": "Estoy probando",
       "usuario": "emiulianss",
       "password": "cajaFuerte11",
-      "descripcion": "password Bancadel",
+      "descripcion": "sasasasasasapassword Bancadel",
       "enlace": "http://enlace.com"
     },
     {
       "id": 2,
       "codigoLista": 1,
-      "nombrePassword": "Portal del empleado 22",
+      "nombrePassword": "Portal del empleado none",
       "usuario": "emiuliano",
       "password": "cajaFuerte12",
       "descripcion": "password portal",
@@ -100,11 +100,11 @@
     {
       "id": 6,
       "codigoLista": 1,
-      "nombrePassword": "Testing Json Test",
+      "nombrePassword": "Testing Json ",
       "usuario": "rvillano",
-      "password": "cajaFuerte32",
+      "password": "cajaFuerte3233",
       "descripcion": "password portal empleado Carlos",
-      "enlace": "http://enlace.com"
+      "enlace": "http://otroenlace.com"
     },
     {
       "id": 7,
@@ -123,47 +123,60 @@
       "password": "holsmudnfi ",
       "descripcion": "estoyprobando",
       "enlace": "Estoestaratos.com"
+    },
+    {
+      "id": 9,
+      "codigoLista": 2,
+      "nombrePassword": "Carlos",
+      "usuario": "Reyes",
+      "password": "",
+      "descripcion": "hola",
+      "enlace": "estoy.com"
+    },
+    {
+      "id": 10,
+      "codigoLista": 1,
+      "nombrePassword": "Carlos Reyes",
+      "usuario": "UNapass",
+      "password": "carlitosry",
+      "descripcion": "otra mas",
+      "enlace": "Carlos reyes"
     }
   ],
-
   "new-list": {
     "_comentario": "Cuando se actualice (metodo Put) una nueva lista se requeire que retorne estos valores",
-
     "id": 4,
     "nombre": "Google",
     "porDefecto": false,
     "listasPasswords": []
   },
-
   "update-list": {
     "_comentario": "Cuando se actualice (metodo Put) una lista se requeire que retorne estos valores",
     "id": 1,
-      "nombre": "Carlitosry",
-      "descripcion": "passwords personales",
-      "porDefecto": false,
-      "listaPasswords": [
-        {
-          "id": 1,
-          "nombrePassword": "Portal del empleado"
-        },
-        {
-          "id": 2,
-          "nombrePassword": "Portal del empleado2"
-        },
-        {
-          "id": 6,
-          "nombrePassword": "Testing Json"
-        }
-      ]
+    "nombre": "Carlitosry",
+    "descripcion": "passwords personales",
+    "porDefecto": false,
+    "listaPasswords": [
+      {
+        "id": 1,
+        "nombrePassword": "Portal del empleado"
+      },
+      {
+        "id": 2,
+        "nombrePassword": "Portal del empleado2"
+      },
+      {
+        "id": 6,
+        "nombrePassword": "Testing Json"
+      }
+    ]
   },
-
-  "new-password": { 
+  "new-password": {
     "_comentario": "Cuando se cree (metodo Post) un nuevo Password se requeire que retorne estos valores",
     "id": 2,
     "codigoLista": 1,
     "nombrePassword": "Portal del empleado 22"
   },
-
   "update-password": {
     "_comentario": "Cuando se actualice (metodo Put) un nuevo Password se requeire que retorne estos valores",
     "id": 8,
@@ -173,5 +186,25 @@
     "password": "holsmudnfi ",
     "descripcion": "estoyprobando",
     "enlace": "Estoestaratos.com"
+  }, 
+  "signature": {
+    "_comentario": "Cuando se solicite la Firma Digital (metodo Get)",
+    "positions": [2, 4, 5, 6],
+    "length": 8
+  },
+  "signaturePost": {
+    "_comentario": "Cuando se envia las posiciones de la Firma Digital (Body que se enviara en el metodo Post)",
+    "body": [
+        {"position":2,"value":"3"},
+        {"position":4,"value":"4"},
+        {"position":5,"value":"5"},
+        {"position":6,"value":"6"}
+      ]
+  },
+
+  "signaturePostReponse": {
+    "_comentario": "Lo que se espera que retorne del metodo post (metodo Post)",
+    "isValid": true
   }
+
 }

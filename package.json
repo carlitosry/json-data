@@ -1,0 +1,23 @@
+{
+  "name": "api-json-test",
+  "version": "1.0.0",
+  "description": "Api to CAFUDI",
+  "main": "index.js",
+  "dependencies": {
+    "karma-es6-shim": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlitosry/json-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlitosry/json-data/issues"
+  },
+  "homepage": "https://github.com/carlitosry/json-data#readme"
+}
