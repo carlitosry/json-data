@@ -1,0 +1,5 @@
+urlTrace: ''
+security:
+  urlService: https://sccnuar.santander.dev.corp/sccofi/
+  urlAttrUser: https://sccnuar.santander.dev.corp/uds/
+

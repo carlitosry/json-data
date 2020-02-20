@@ -1,0 +1,33 @@
+required_conf_env:
+  environment: dev
+conf_header:
+  xIBMClientId: ''
+  contactPoint: SPA
+  language: es-ES
+  X-ClientId: CAFUDI
+oauth:
+  clienteId: test
+  client_secret: test
+  scope: read
+  token_service: "//"
+  param_type: body
+controlType: TOKEN
+nameParameterToken: token
+expireTime: '3600000'
+advanceTime: '3600000'
+showmodal: 'false'
+defaultLang: es
+mainTitle: Caja fuerte digital
+passwordsListID: 1
+endpoints:
+  basePath: ''
+  passwordsGetAllLists: "/assets/dummies/listadosDePasswords.json"
+  passwordsCreateList: http://localhost:3000/list
+  passwordsUpdateList: http://localhost:3000/list/{id}
+  passwordsDeleteList: http://localhost:3000/list/{id}
+  passwordGet: "/assets/dummies/passwordByID.json"
+  passwordCreate: http://localhost:3000/passwords
+  passwordUpdate: http://localhost:3000/passwords/{id}
+  passwordDelete: http://localhost:3000/passwords/{id}
+  signatureGet: "/assets/dummies/signatureGet.json"
+  signatureSet: http://localhost:3000/signature

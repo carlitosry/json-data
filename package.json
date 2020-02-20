@@ -6,7 +6,9 @@
   "dependencies": {
     "karma-es6-shim": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
