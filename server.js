@@ -19,6 +19,7 @@ server.use('/static', express.static(path.join(__dirname, 'public')))
 server.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
 
@@ -36,6 +37,31 @@ server.get('/holdingPlanss', (req, res) => {
     })
 })
 
+// send error message when validating code on invest
+server.post('/api/validaFirm', (req, res) => {
+  console.log('/validaFirma, error 403')
+  res.status(403).jsonp({
+      httpCode: 403,
+      httpMessage: "forbidden",
+      moreInformation: "La firma no es valida."
+  })
+})
+
+// send error message when validating code on invest
+server.get('/api/star', (req, res) => {
+  console.log('/start, error 403')
+  res.status(403).jsonp({
+    "httpCode":403,
+    "httpMessage":"Sin telefono asociado",
+    "moreInformation":"Sin telefono asociado"
+  })
+})
+
+server.post('/api/addDocument', (req, res) => {
+  console.log('/addDocumento, error 406')
+  res.status(423);
+  next()
+})
 
 
 server.use(jsonServer.bodyParser)

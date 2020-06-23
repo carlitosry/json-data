@@ -2,7 +2,7 @@
     "/api/getLists?tipoLista=:id&_embed=:typeListName": "/list?tipoLista=:id&_embed=:typeListName",
     "/api/addList": "/list",
     "/api/updateList/:id": "/list/:id",
-    "/api/deleteList/:id": "/list/:id",
+    "/api/deleteList/:id": "/list/:id", 
     
     "/api/getPass/:id/:typeList": "/passwords/:id",
     "/api/addPass": "/passwords",
@@ -14,10 +14,16 @@
     "/api/addDocumento": "/documents",
     "/api/deleteDocumento/:id/:typeList": "/documents/:id",
     "/api/getTiposDocumentos": "/tipo",
-    "/api/getFichero/:id": "/fichero",
+    "/api/getFichero/:id/:idDocument": "/fichero",
+    "/api/deleteFichero/:id/:idDocument": "/deleteFichero/:id",
 
     "/api/obtenerPosiciones": "/signature",
     "/api/validaFirma": "/signaturePost",
     "/api/validaOTP": "/otp",
-    "/api/start": "/holdingPlans"
-  }
+    "/api/start": "/holdingPlans",
+
+    "/servicing/v1/commerce/:id": "/commerce/:id",
+    "/servicing/v1/commerce_totalizations/:id": "/totalizations/:id",
+    "/servicing/v1/commerce_operations/:id": "/operations/:id",
+    "/servicing/v1/commerce_operations_totalization/:id": "/operations/:id"
+}

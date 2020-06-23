@@ -1,0 +1,122 @@
+{
+  "commerce": [
+    {
+      "id": "004915005240143241",
+      "datosCabecera": {
+        "numeroComercio": "0041942830",
+        "nombreComercial": "F.T.P. ACCIAIERIA S.R.L",
+        "actividadCai": "4012 RENFE",
+        "indicadorCaptado": "1",
+        "numeroContrato": "0049 1500 524 0143241",
+        "nombreCliente": "F.T.P. SISTEMI S.A.S.",
+        "numeroCliente": "J-97153",
+        "estadoComercio": "EN VIGOR",
+        "identificacion": "G60892346"
+      },
+      "estado": {
+        "estadoComercio": "00-EN VIGOR",
+        "fechaAlta": "2002-06-28T00:00:00.000+0000",
+        "impActividadEco": "0000",
+        "fechaUltTotal": "2019-06-20T00:00:00.000+0000"
+      },
+      "titular": {
+        "nombre": "F.T.P. SISTEMI S.A.S.",
+        "numeroDocumento": "S -G60892346",
+        "numeroPersona": "J-97153",
+        "domicilio": "SANTANDER CENTRAL HISPANO CENTRO 1500                                                                                                                                                                                                                                                   "
+      },
+      "representante": null,
+      "informacionAdicional": {
+        "codEstandarReferencia": "0000001",
+        "desEstandarReferencia": "",
+        "telefono1": "",
+        "telefono2": "",
+        "codMoneda": "EUR",
+        "imputacion": "",
+        "bonificacion": ""
+      }
+    }
+  ],
+  "totalizations": [
+    {
+      "id": "004915005240143241",
+      "listaTotalizaciones": [
+        {
+          "id": 1,
+          "ordTotalizacion": 1,
+          "fechaTotalizacion": "20/06/2019",
+          "hora": "22:30",
+          "numOperacion": "099990",
+          "tpv": "00",
+          "tipo": "VARIOS         ",
+          "modo": "OFFLINE",
+          "importeLiquido": "2.88 EUR",
+          "importeDescuento": "0.12 EUR",
+          "cuentaAbono": "0049 1892 2410524312",
+          "terminal4b": "1906220000027"
+        },
+        {
+          "id": 2,
+          "ordTotalizacion": 2,
+          "fechaTotalizacion": "20/06/2019",
+          "hora": "22:30",
+          "numOperacion": "099990",
+          "tpv": "00",
+          "tipo": "VARIOS         ",
+          "modo": "OFFLINE",
+          "importeLiquido": "2.88 EUR",
+          "importeDescuento": "0.12 EUR",
+          "cuentaAbono": "0049 1892 2410524312",
+          "terminal4b": "1906220000027"
+        },
+        {
+          "id": 3,
+          "ordTotalizacion": 3,
+          "fechaTotalizacion": "20/06/2019",
+          "hora": "22:30",
+          "numOperacion": "099990",
+          "tpv": "00",
+          "tipo": "VARIOS         ",
+          "modo": "OFFLINE",
+          "importeLiquido": "2.88 EUR",
+          "importeDescuento": "0.12 EUR",
+          "cuentaAbono": "0049 1892 2410524312",
+          "terminal4b": "1906220000027"
+        }
+      ],
+      "masRegistros": "N"
+    }
+  ],
+  "operations": [
+    {
+      "id":"004915005240143241",
+      "listaOperaciones": [
+        {
+          "ordTotalizacion": 1,
+          "ordOperacion": 1,
+          "fechaTotalizacion": "20/06/2019",
+          "fechaOperacion": "20/06/2019",
+          "horaOperacion": "09:45",
+          "numOperacion": "091260",
+          "pan": "4548810000000003",
+          "codigoOperacion": "VENTA",
+          "importe": "-3.00 EUR",
+          "numOperacionTotalizacion": "099990"
+        },
+        {
+          "ordTotalizacion": 1,
+          "ordOperacion": 2,
+          "fechaTotalizacion": "20/05/2019",
+          "fechaOperacion": "20/05/2019",
+          "horaOperacion": "10:45",
+          "numOperacion": "091260",
+          "pan": "4548810000000003",
+          "codigoOperacion": "VENTA",
+          "importe": "-53.00 EUR",
+          "numOperacionTotalizacion": "099990"
+        }
+      ],
+      "masRegistros": "N"
+    }
+  ]
+}
